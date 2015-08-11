@@ -55,7 +55,7 @@ class MyImgParser(HTMLParser):
                         print("urlpart2:", urlpart2)
                     else:
                         print("urlpart2:", urlpart2)
-                        ##downloadImg(urlpart2)
+                        downloadImg(urlpart2)
 
 try:
     UrlPath1 = urlpart1+urlpart2+urlpart3+urlpart4+urlpart5
